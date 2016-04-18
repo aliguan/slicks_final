@@ -10,6 +10,10 @@ Text Domain: slicks_auto_body
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
+@font-face {
+    font-family: 'monthoers';
+    src: url("fonts/monthoers.ttf");
+}
 
 * {
     color: #000000;
@@ -33,6 +37,7 @@ h2, h4, h6 {
 h1, h1 a {
     font-size: 3.5rem;
     text-decoration: none;
+    color: black;
 }
 h2 {
     font-size: 3.0rem;
@@ -115,5 +120,12 @@ p {
 }
 
 .oldtowncar {
-    background-image: url( 'img/frontpgcar.jpg' );
+    background-image: url('img/frontpgcar.jpg');
+    font-family: 'monthoers';
+    background-size: cover;
+
+}
+
+.oldtowncar h1 {
+    font-size: 5em;
 }
