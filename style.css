@@ -17,6 +17,11 @@ Text Domain: slicks_auto_body
     line-height: 1.5rem;
 }
 
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
 }
@@ -54,6 +59,8 @@ p {
     height: auto;
 }
 
+/*--- Menu --- */
+
 .logo {
     width: 100%;
     margin-top: 1em;
@@ -64,7 +71,7 @@ p {
     margin: auto;
 }
 
-.blank-menu-header ul li a {
+.slicks-menu-header ul li a {
     text-decoration:none;
     margin: 1.5em;
     font-weight: 300;
@@ -72,11 +79,11 @@ p {
     font-size: 1.3em;
 }
 
-.blank-menu-header ul li a:hover {
+.slicks-menu-header ul li a:hover {
     color: #cccccc;
 }
 
-.blank-menu-header ul {
+.slicks-menu-header ul {
     margin: 1em;
     padding: 0;
     list-style-type: none;
@@ -84,17 +91,18 @@ p {
     text-align: center;
 }
 
-/*--- Menu --- */
+/* Menu Media Query */
+
 @media all and (min-width: 768px) {
-    .blank-menu-header {
+    .slicks-menu-header {
         margin: 2em;
         float: right;
     }
-    .blank-menu-header ul {
+    .slicks-menu-header ul {
         width: 100%;
         margin: 0;
     }
-    .blank-menu-header li {
+    .slicks-menu-header li {
         display: inline;
         font-size: 0.7em;
     }
@@ -104,4 +112,8 @@ p {
         width: 50%;
         max-width: 400px;
     }
+}
+
+.oldtowncar {
+    background-image: url( 'img/frontpgcar.jpg' );
 }
