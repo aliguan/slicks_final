@@ -11,8 +11,8 @@ Text Domain: slicks_auto_body
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
 @font-face {
-    font-family: 'monthoers';
-    src: url("fonts/monthoers.ttf");
+    font-family: 'bulletto';
+    src: url("fonts/Bulletto.ttf");
 }
 
 * {
@@ -121,11 +121,15 @@ p {
 
 .oldtowncar {
     background-image: url('img/frontpgcar.jpg');
-    font-family: 'monthoers';
     background-size: cover;
-
+    padding: 3em;
 }
 
-.oldtowncar h1 {
-    font-size: 5em;
+.oldtowncar h1, h1 a {
+    font-size: 2.3em;
+    font-family: 'bulletto';
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 1em;
 }
