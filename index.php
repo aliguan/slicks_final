@@ -2,16 +2,15 @@
 
         <section class="row">
 
-            <div class="three columns">
+            <div class="four columns">
                 <?php dynamic_sidebar( 'whoarewe-widget' ); ?>
             </div>
-            <div class="three columns">
-                <p>
+            <div class="four columns">
+                <?php dynamic_sidebar( 'whatwedo-widget' ); ?>
 
             </div>
-            <div class="three columns">
-                <h4>Side Bar</h4>
-                <p>Side Bar<p>
+            <div class="four columns">
+                <?php dynamic_sidebar( 'howwedo-widget' ); ?>
             </div>
         </section>
 

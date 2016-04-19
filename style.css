@@ -166,3 +166,7 @@ p {
 	position: relative;
 	top: 1px;
 }
+
+footer {
+    background-color: #d0dcd5;
+}
