@@ -2,21 +2,12 @@
 
         <section class="row">
 
-            <div class="nine columns">
+            <div class="three columns">
+                <?php dynamic_sidebar( 'whoarewe-widget' ); ?>
+            </div>
+            <div class="three columns">
                 <p>
-                    <?php
-                    if ( have_posts() ) {
-                    while ( have_posts() ) {
-                        the_post(); ?>
-                    <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-                    <?php
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('thumbnail');
-                        }
-                        the_excerpt();
-                    } // end while
-                } // end if
-                    ?>
+
             </div>
             <div class="three columns">
                 <h4>Side Bar</h4>

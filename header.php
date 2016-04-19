@@ -34,7 +34,6 @@
                     <h4><a href="<?php echo get_permalink(5); ?>">Promos</a></h4>
                 </div>
             </div>
-
         </header>
 
 <!-- end header -->
