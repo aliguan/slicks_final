@@ -6,7 +6,6 @@
 
     <title>Slick's Auto Body</title>
     <?php wp_head(); ?>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href=" <?php  bloginfo('stylesheet_url');?>" />
 </head>
