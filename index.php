@@ -26,7 +26,6 @@
                         <img src="<?php bloginfo('template_directory'); ?>/img/engine.png">
                     </li>
                     <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/logo.png">
                     </li>
                 <ul>
         </section>
