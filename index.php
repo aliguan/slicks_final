@@ -26,8 +26,12 @@
                         <img src="<?php bloginfo('template_directory'); ?>/img/engine.png">
                     </li>
                     <li>
+                        <img src="<?php bloginfo('template_directory'); ?>/img/battery.png">
                     </li>
                 <ul>
+                <div class="schedulebtn promobtn">
+                    <h4><a href="<?php echo get_permalink(5); ?>">Set Up An Appointment</a></h4>
+                </div>
         </section>
 
 <?php get_footer(); ?>

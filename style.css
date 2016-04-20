@@ -120,6 +120,65 @@ li {
     color: white;
 }
 
+.promobtn {
+	background-color: #45a2ff;
+	border-radius: 20px;
+	border: 1px solid #45a2ff;
+	text-decoration: none;
+    margin: auto;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+.schedulebtn {
+    height: 60px;
+    width: 125px;
+    border-radius: 30px;
+}
+
+.promobtn h4, a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.promobtn a::hover {
+	background-color: white;
+}
+.promobtn a::active {
+	position: relative;
+	top: 1px;
+}
+
+.services {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.serviceicons {
+    width: 30%;
+    margin: auto;
+}
+
+.serviceicons ul {
+    text-align: center;
+}
+
+.serviceicons img {
+    width: 50%;
+    max-width: 180px;
+    margin: auto;
+    padding: 1.2em;
+}
+
+
+footer {
+    background-color: #d0dcd5;
+}
+
 @media all and (min-width: 768px) {
     .slicks-menu-header {
         margin: 2em;
@@ -143,60 +202,18 @@ li {
         font-size: 2.4em;
         width: 50%;
     }
-}
+    .serviceicons {
+        width: 75%;
+        margin: auto;
+    }
+    .serviceicons li {
+        display: inline;
+        margin: auto;
+        text-align: center;
+        padding: 1.2em;
+    }
+    .serviceicons img {
+        max-width: 130px;
+    }
 
-.promobtn {
-	background-color: #45a2ff;
-	border-radius: 20px;
-	border: 1px solid #45a2ff;
-	text-decoration: none;
-    margin: auto;
-    height: 40px;
-    width: 100px;
-    text-align: center;
-}
-
-.promobtn h4, a {
-    font-size: 1em;
-    text-decoration: none;
-    color: white;
-    margin-top: 10px;
-}
-
-.promobtn a::hover {
-	background-color: white;
-}
-.promobtn a::active {
-	position: relative;
-	top: 1px;
-}
-
-.services {
-    width: 100%;
-    margin: auto;
-    padding: 1em;
-    display: block;
-}
-
-.serviceicons {
-    width: 50%;
-    margin: auto;
-}
-
-.serviceicons ul {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.serviceicons img {
-    width: 40%;
-    max-width: 180px;
-    margin: auto;
-    padding: 1.2em;
-}
-
-
-footer {
-    background-color: #d0dcd5;
 }
