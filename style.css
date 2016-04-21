@@ -151,7 +151,8 @@ li {
     height: 60px;
     width: 125px;
     border-radius: 30px;
-    margin-left: -3em;
+    margin:auto;
+    padding-bottom: 2em;
 }
 
 .promobtn h4, a {
@@ -179,7 +180,7 @@ li {
 .serviceicons {
     width: 30%;
     margin: auto;
-    padding: 2em;
+    padding-top: 2em;
 }
 
 .serviceicons ul {
@@ -261,8 +262,24 @@ footer {
     width: auto;
 }
 
+}
+@media (min-width: 550px) {
+    .four.columns {
+    width: auto;
+    }
+    .column:first-child, .columns:first-child {
+    margin-left: 1em;
+    }
+}
 
 @media all and (min-width: 768px) {
+    .four.columns {
+        width: 30.6666666667%;
+    }
+    .column:first-child,
+    .columns:first-child {
+    margin-left: auto;
+    }
     .slicks-menu-header {
         margin: 2em;
         float: right;
@@ -284,6 +301,9 @@ footer {
     .oldtowncar h1, h1 a {
         font-size: 2.4em;
         width: 50%;
+    }
+    .fix {
+        margin-left: 1em;
     }
     .services {
         background: white;
@@ -315,10 +335,3 @@ footer {
     .columns {
     width: inherit;
     }
-}
-@media (min-width: 550px) {
-    .column:first-child,
-    .columns:first-child {
-    margin-left: auto;
-    }
-}

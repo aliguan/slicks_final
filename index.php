@@ -2,7 +2,7 @@
 
         <section class="row">
             <div class="aboutwpr clearfix">
-                <div class="four columns widgetspacing">
+                <div class="four columns widgetspacing fix">
                     <?php dynamic_sidebar( 'whoarewe-widget' ); ?>
                 </div>
                 <div class="four columns widgetspacing">
@@ -29,7 +29,7 @@
                     <li>
                         <img src="<?php bloginfo('template_directory'); ?>/img/battery.png">
                     </li>
-                <ul>
+                <ul style="padding: 2em;">
                 <div class="schedulebtn promobtn">
                     <h4><a href="<?php echo get_permalink(5); ?>">Set Up An Appointment</a></h4>
                 </div>
