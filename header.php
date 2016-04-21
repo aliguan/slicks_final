@@ -27,7 +27,7 @@
         <header class="row">
             <div class="twelve columns oldtowncar">
                 <h1>
-                    <a href="<?php bloginfo('url')?>"><?php bloginfo('name');?></a>
+                    <a href="<?php bloginfo('url')?>">Slick's Auto Body</a>
                 </h1>
                 <div class="promobtn">
                     <h4><a href="<?php echo get_permalink(5); ?>">Promos</a></h4>

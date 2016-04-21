@@ -232,6 +232,13 @@ footer {
     color: #1EAEDB;
 }
 
+.widgetspacing {
+    padding: 1em;
+    margin: 1em;
+    background: #f7f7f7;
+}
+
+
 @media all and (min-width: 768px) {
     .slicks-menu-header {
         margin: 2em;
