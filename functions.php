@@ -66,7 +66,5 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 
-add_theme_support( 'post-thumbnails' );
-
-
-?>
+add_theme_support( 'post-thumbnails' ); ?>
+<?php set_post_thumbnail_size( 300, 175, $crop ); ?> 

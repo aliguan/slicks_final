@@ -2,10 +2,6 @@
 
     <div class="row">
 
-        <div class="three columns">
-            <?php get_sidebar(); ?>
-        </div>
-
         <div class="nine columns">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) :
