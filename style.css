@@ -42,6 +42,17 @@ Text Domain: slicks_auto_body
     height: 0;
 }
 
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
 }
@@ -262,6 +273,25 @@ footer {
     width: auto;
 }
 
+.widget-right {
+    padding: 2em;
+    margin: auto;
+    width: 90%;
+}
+
+.contact p {
+    text-indent: 0;
+    margin: auto;
+}
+
+ .wpcf7-submit {
+     float: right;
+ }
+
+.wpcf7-textarea {
+    height: 150px;
+}
+
 }
 @media (min-width: 550px) {
     .four.columns {
@@ -271,6 +301,7 @@ footer {
     margin-left: 1em;
     }
 }
+
 
 @media all and (min-width: 768px) {
     .four.columns {
@@ -305,6 +336,10 @@ footer {
     .fix {
         margin-left: 1em;
     }
+    .widgetspacing {
+    padding: 2em;
+    margin: 0.5em;
+    }
     .services {
         background: white;
     }
@@ -321,7 +356,7 @@ footer {
         padding: 1.2em;
     }
     .serviceicons img {
-        max-width: 130px;
+        max-width: 120px;
     }
     .aboutwpr {
         width: 90%;

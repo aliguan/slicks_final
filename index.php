@@ -16,6 +16,7 @@
         </section>
         <section class="row services">
             <div class="serviceicons">
+                <h1 style="text-align:center">Our Services</h1>
                 <ul>
                     <li>
                         <img src="<?php bloginfo('template_directory'); ?>/img/tire.png">
