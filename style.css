@@ -21,9 +21,25 @@ Text Domain: slicks_auto_body
     line-height: 1.5rem;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .container {
     width: 100%;
     max-width: 1400px;
+    padding: 0;
+}
+
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,7 +151,7 @@ li {
     height: 60px;
     width: 125px;
     border-radius: 30px;
-    padding-left: -5px;
+    margin-left: -3em;
 }
 
 .promobtn h4, a {
@@ -171,8 +187,9 @@ li {
 .serviceicons img {
     width: 50%;
     max-width: 180px;
+    min-width: 80px;
     margin: auto;
-    padding: 1.2em;
+    padding: 0.5em;
 }
 
 
@@ -233,9 +250,13 @@ footer {
 }
 
 .widgetspacing {
-    padding: 1em;
+    padding: 2em;
     margin: 1em;
     background: #f7f7f7;
+}
+
+.aboutwpr {
+    width: auto;
 }
 
 
@@ -275,5 +296,22 @@ footer {
     .serviceicons img {
         max-width: 130px;
     }
+    .aboutwpr {
+        width: 90%;
+        margin: auto;
+    }
 
+}
+
+@media all and (max-width: 767px) {
+    .column,
+    .columns {
+    width: inherit;
+    }
+}
+@media (min-width: 550px) {
+    .column:first-child,
+    .columns:first-child {
+    margin-left: auto;
+    }
 }
