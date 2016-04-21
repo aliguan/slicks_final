@@ -173,11 +173,13 @@ li {
     width: 100%;
     margin: auto;
     display: block;
+    background: #f7f7f7;
 }
 
 .serviceicons {
     width: 30%;
     margin: auto;
+    padding: 2em;
 }
 
 .serviceicons ul {
@@ -283,9 +285,14 @@ footer {
         font-size: 2.4em;
         width: 50%;
     }
+    .services {
+        background: white;
+    }
     .serviceicons {
         width: 75%;
         margin: auto;
+        padding-top: 3em;
+        background: #f7f7f7;
     }
     .serviceicons li {
         display: inline;
