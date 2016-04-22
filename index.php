@@ -19,16 +19,16 @@
                 <h1 style="text-align:center">Our Services</h1>
                 <ul>
                     <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/tire.png">
+                        <a class="hvr-grow" href="pricing"><img src="<?php bloginfo('template_directory'); ?>/img/tire.png"></a>
+                    </li>
+                    <li class="hvr-grow">
+                        <a href="pricing"><img src="<?php bloginfo('template_directory'); ?>/img/oil.png"></a>
                     </li>
                     <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/oil.png">
+                        <a class="hvr-grow" href="pricing"><img src="<?php bloginfo('template_directory'); ?>/img/engine.png"></a>
                     </li>
                     <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/engine.png">
-                    </li>
-                    <li>
-                        <img src="<?php bloginfo('template_directory'); ?>/img/battery.png">
+                        <a class="hvr-grow" href="pricing"><img src="<?php bloginfo('template_directory'); ?>/img/battery.png"></a>
                     </li>
                 <ul style="padding: 2em;">
                 <div class="schedulebtn promobtn">

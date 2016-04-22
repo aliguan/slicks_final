@@ -56,11 +56,10 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'
         ));
-    }
     register_sidebar( array(
         'name' => ('Pricing Left'),
         'id' => 'pricing-left',
-        'description' => 'Widget for left part of footer',
+        'description' => 'Widget for left part of pricing',
         'before_widget' => '<div class="widget-sidebar widget-footer">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',
@@ -69,7 +68,7 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name' => ('Pricing Middle'),
         'id' => 'pricing-middle',
-        'description' => 'Widget for middle part of footer',
+        'description' => 'Widget for middle part of pricing',
         'before_widget' => '<div class="widget-sidebar widget-footer widget-middle">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',
@@ -78,7 +77,7 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name' => ('Pricing Right'),
         'id' => 'pricing-right',
-        'description' => 'Widget for right part of footer',
+        'description' => 'Widget for right part of pricing',
         'before_widget' => '<div class="widget-sidebar widget-footer widget-middle widget-right">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',
