@@ -275,6 +275,7 @@ footer {
 
 .aboutwpr {
     width: auto;
+    padding: 3em;
 }
 
 .widget-right {
@@ -414,6 +415,7 @@ textarea
     .aboutwpr {
         width: 90%;
         margin: auto;
+
     }
 
 }
