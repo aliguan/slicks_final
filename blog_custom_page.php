@@ -1,6 +1,6 @@
-<!-- /*
+<?php   /*
 Template Name: Blog Page
-*/ -->
+*/ ?>
 
 <?php get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=5&paged='. get_query_var('paged')); ?>
@@ -15,7 +15,7 @@ Template Name: Blog Page
                    </a>
                </div>
                <div class="eight columns excerpt list_post">
-                  <a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>"> <h2><?php the_title(); ?></h2></a><?php the_excerpt(); ?>
+                  <a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>"> <h2><?php the_title(); ?></h2></a><?php the_excerpt('Continue Reading...'); ?>
                </div>
            <?php endwhile; ?>
                 <!-- Navigation -->
