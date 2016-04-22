@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-        <section class="row">
+        <section class="row single">
             <div class="two columns">
-                <p>Sidebar Content</p>
+                <p style="color: white">Sidebar Content</p>
             </div>
             <div class="eight columns">
 
@@ -12,14 +12,14 @@
                     <div class="single-post-thumbnail"><?php the_post_thumbnail('medium'); ?></div>
                 <?php } ?>
 
-                    <h2><?php the_title(); ?></h2>
+                    <h2 style="padding: 1em 0; "><?php the_title(); ?></h2>
 
                     <?php the_content();
                         endwhile;
                     endif; ?>
             </div>
             <div class="two columns">
-                <p>Sidebar Content</p>
+                <p style="color: white">Sidebar Content</p>
             </div>
         </section>
 
